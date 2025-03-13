@@ -10,17 +10,15 @@
 .container{
     height: auto;
     width: auto;
-   
-
+    
 }
 .content{
-    height: auto;
+    height: auto; 
+   width: auto;
 }
 .headcontainer{
      display: flex;
-     justify-content: space-between;
-
-     
+     justify-content: space-between;    
 }
 .partone{
     margin-left: 200px;
@@ -33,8 +31,10 @@
     width: 400px;
    padding-left: 2px;
     font-size: 45px;
-   
-
+}
+.home{
+    border: dotted #474747;
+    width: 2px;
 }
 #options{
     display: flex;
@@ -54,12 +54,12 @@ a{
     text-decoration: none;
     color: black;
 }
-.square {
+.square1 {
     width: 380px;
     background-color: #474747;
     height: 380px;
-    left: 65%;
-    top: 45%;
+    left: 68%;
+    top: 39%;
     border-radius: 50px;
     transform: rotate(65deg);
     z-index: -1;
@@ -139,7 +139,8 @@ a{
     margin-top: 100px;
     gap:130px;
     margin-bottom: 10%;
-    color: #b7a7a7; 
+    color: rgb(215, 214, 214);
+   
 }
 @font-face{
     font-family:ikea ;
@@ -147,6 +148,7 @@ a{
 }
 #ikea{
     font-family: ikea;
+   
 }
 @font-face{
     font-family: diptyqyue;
@@ -176,8 +178,6 @@ a{
 #westwinc{
     font-family:westwinc ;
 }
-
-
 
  p{
     font-size: small;
@@ -272,7 +272,7 @@ a{
 }
 .restyle{
     padding-left: 40%;
-    margin-top: 18%;
+    margin-top: 12%;
     margin-bottom: 10%;
 }
 .restyle p{
@@ -332,8 +332,8 @@ a{
 }
 .benefit{
     padding-left: 40%;
-    margin-top: 18%;
-    margin-bottom: 10%;
+    margin-top: 9%;
+    margin-bottom: 4%;
 }
 .benefit p {
     padding-left: 8%;
