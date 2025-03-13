@@ -1,3 +1,12 @@
+
+@font-face {
+    font-family: carra;
+    src: url(./fonts/MacondoSwashCaps-Regular.ttf);
+}
+#carra{
+    font-family: carra;
+}
+
 .container{
     height: auto;
     width: auto;
@@ -49,8 +58,8 @@ a{
     width: 380px;
     background-color: #474747;
     height: 380px;
-    left: 68%;
-    top: 40%;
+    left: 65%;
+    top: 45%;
     border-radius: 50px;
     transform: rotate(65deg);
     z-index: -1;
@@ -132,6 +141,44 @@ a{
     margin-bottom: 10%;
     color: #b7a7a7; 
 }
+@font-face{
+    font-family:ikea ;
+    src: url(fonts/FatSansRound.ttf);
+}
+#ikea{
+    font-family: ikea;
+}
+@font-face{
+    font-family: diptyqyue;
+    src: url(fonts/PTSerif-Bold.ttf);
+}
+#diptyqyue{
+    font-family: diptyqyue;
+}
+@font-face{
+    font-family: desenio;
+    src: url(fonts/Argon_Regular1.otf);
+}
+#desenio{
+    font-family: desenio;
+}
+@font-face {
+    font-family: benuta;
+    src: url(fonts/Poppins-Regular.ttf);
+}
+#benuta{
+    font-family: benuta;
+}
+@font-face {
+    font-family: westwinc;
+    src: url(fonts/magneta-medium.ttf);
+}
+#westwinc{
+    font-family:westwinc ;
+}
+
+
+
  p{
     font-size: small;
     margin-bottom: 12px;
@@ -272,7 +319,6 @@ a{
     border-radius: 5%;
     height: 450px;
     width: 400px;
-    /* margin-left: 300px; */
     margin-bottom: 10px;
     padding-top: 10px;
 }
@@ -373,5 +419,7 @@ display: flex;
     width: 22%;
     border-radius: 8%;
 }
-
-
+.img{
+    max-width:100%;
+    height: auto;
+}
